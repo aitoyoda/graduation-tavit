@@ -1,0 +1,40 @@
+body {
+    overflow-x : hidden;
+}
+
+/* ～～～～～↓サムネイル画像↓～～～～～ */
+    .thumbnail {
+        position : absolute;
+        top : 0;
+        width : 100%;
+        height : calc(100vw * 0.7479);
+        background-image: url(../images/testmain.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .robo_image {
+        position: absolute;
+        width: 25vw;
+        left: 15vw;
+        top: 150px;
+    }
+
+    .earth_image {
+        position: absolute;
+        width: 35vw;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        top: 200px;
+    }
+
+    .human_image {
+        position: absolute;
+        width: 25vw;
+        right: 15vw;
+        top: 150px;
+    }
+/* ～～～～～↑サムネイル画像↑～～～～～ */

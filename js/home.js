@@ -131,3 +131,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 });
+
+$(() => {
+    $('.contents_top h2').on('click', (event) => {
+        $(event.target).siblings('p').slideToggle(500);
+    });
+})

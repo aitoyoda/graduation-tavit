@@ -1,5 +1,6 @@
 body {
     overflow-x : hidden;
+    height: 900px;
 }
 
 /* ～～～～～↓サムネイル画像↓～～～～～ */
@@ -38,3 +39,22 @@ body {
         top: 150px;
     }
 /* ～～～～～↑サムネイル画像↑～～～～～ */
+
+/* ～～～～～～～↓コンテンツ1↓～～～～～～～ */
+
+.contents_top {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    /* margin-top: calc(100vw * 0.7479 + 30px); */
+    margin-top: 100vw;
+    width: 50%;
+    position: relative;
+    z-index: 10000;
+}
+
+.contents_top p {
+    display: none;
+}
+
+/* ～～～～～～～↑コンテンツ1↑～～～～～～～ */
